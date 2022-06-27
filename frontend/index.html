@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Coming soon – Sereno</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+			function showCalculator() {
+				const survey = document.getElementById('co2-survey');
+				// survey.style.background ='red'; //.display = 'none';
+				if (survey.className !== 'active') {
+					survey.className = 'active';
+				} else {
+					survey.className = '';
+				}
+			}
+
+			function tabSelected(target) {
+				console.debug(target);
+				// delete classname for all tabs
+				const allTabs = target.parentElement.children;
+				console.debug(allTabs);
+				for (let i = 0; i < allTabs.length; i++) {
+					const tab = allTabs[i];
+					tab.className = "";
+				}
+				// set clicked tab as active
+				target.className = "active";
+				// set all content
+				const allContents = document.getElementById('tab-contents').children;
+				for (let i = 0; i < allContents.length; i++) {
+					const content = allContents[i];
+					if (content.id.startsWith(target.id)) {
+						content.className = "active";
+					} else {
+						content.className = "";
+					}
+				}
+
+
+			}
+
+		</script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1> Coming Soon – Join our waiting list </h1>
+						<p>This will be worth the wait<br />
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Contact Us</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Contact Us - the wait will be worth it</h2>
+										</header>
+										<p>Become a part of the NewWave community right now!</p>
+											<div>
+												<div class="container">
+													<form id="contact-form">
+
+														<label class="layout" for="fname">First Name</label>
+														<input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+														<label class="layout" for="lname">Last Name</label>
+														<input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+														<label class="layout" for="company">Company</label>
+														<input type="text" id="company" name="company" placeholder="Your Company name...">
+
+														<label class="layout" for="country">Country</label>
+														<select id="country" name="country">
+															<option value="Switzerland">Switzerland</option>
+															<option value="Austria">Austria</option>
+															<option value="Germany">Germany</option>
+															<option value="Italy">Italy</option>
+														</select>
+
+														<label class="layout" for="email">Email</label>
+														<input type="text" id="email" name="email" placeholder="Your Email...">
+
+														<label class="layout" for="phone">Phone Nr.</label>
+														<input type="text" id="phone" name="phone" placeholder="Your Phone Nr.">
+
+														<label class="layout" for="subject">Subject</label>
+														<textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+														<input type="submit" value="Submit">
+
+													</form>
+												</div>
+												</div>
+											</div>
+										</div>
+							</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Ihre Spende für den Klimaschutz
+							</h2>
+							<p>Wir setzen uns für Klimaschutz in den unterschiedlichsten Bereichen der Gesellschaft ein. Bitte helfen Sie uns heute mit Ihrer Spende für den Klimaschutz.
+							</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Spenden</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Etiam feugiat</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dt>Phone</dt>
+								<dd>(000) 000-0000 x 0000</dd>
+								<dt>Email</dt>
+								<dd><a href="#">information@untitled.tld</a></dd>
+							</dl>
+						</section>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "email": "admin@test.com",
+    "password": "password",
+    "roles": [
+      "ROLE_ADMIN",
+      "ROLE_USER",
+      "ROLE_UPLOAD"
+    ]
+  },
+  {
+    "id": 2,
+    "username": "user1",
+    "email": "user1@test.com",
+    "password": "password",
+    "roles": [
+      "ROLE_USER",
+      "ROLE_UPLOAD"
+    ]
+  },
+  {
+    "id": 3,
+    "username": "user2",
+    "email": "user2@test.com",
+    "password": "password",
+    "roles": [
+      "ROLE_USER"
+    ]
+  },
+  {
+    "test": "Kilian was here."
+  },
+  {
+    "id": 3,
+    "username": "kilian",
+    "email": "user2@test.com",
+    "password": "password",
+    "roles": [
+      "ROLE_USER"
+    ]
+  },
+  {
+    "id": 3,
+    "username": "kilian",
+    "email": "user2@test.com",
+    "password": "password",
+    "roles": [
+      "ROLE_USER"
+    ]
+  },
+  {
+    "id": 3,
+    "username": "kilian",
+    "email": "user2@test.com",
+    "password": "password",
+    "roles": [
+      "ROLE_USER"
+    ]
+  },
+  {
+    "id": 3,
+    "username": "contact",
+    "email": "user2@test.com",
+    "password": "password",
+    "roles": [
+      "ROLE_USER"
+    ]
+  },
+  {
+    "firstname": "",
+    "lastname": "",
+    "country": "Italien",
+    "subject": ""
+  },
+  {
+    "firstname": "Kilian",
+    "lastname": "Wyss",
+    "company": "Swisscom AG",
+    "country": "Italy",
+    "email": "kilian@wyssbaur.ch",
+    "subject": "hdhahdh"
+  },
+  {
+    "firstname": "Kilian",
+    "lastname": "Wyss",
+    "company": "Swisscom AG",
+    "country": "Italy",
+    "email": "kilian.wyss@swisscom.com",
+    "subject": "dajdjkdajk"
+  },
+  {
+    "firstname": "Kilian",
+    "lastname": "Wyss",
+    "company": "Swisscom AG",
+    "country": "Switzerland",
+    "email": "kilian.wyss@swisscom.com",
+    "phone": "83893hhahs",
+    "subject": "hahdhjadhjakdkddk"
+  },
+  {
+    "firstname": "Kilian",
+    "lastname": "Wyss",
+    "company": "Swisscom AG",
+    "country": "Austria",
+    "email": "kilian.wyss@swisscom.com",
+    "phone": "0798758027",
+    "subject": "Hey i'm here! Love to see more."
+  },
+  {
+    "firstname": "Kilian",
+    "lastname": "Wyss",
+    "company": "Swisscom AG",
+    "country": "Austria",
+    "email": "kilian.wyss@swisscom.com",
+    "phone": "0798758027",
+    "subject": "Hey i'm here! Love to see more."
+  },
+  {
+    "firstname": "Kilian Lars",
+    "lastname": "Wyss",
+    "company": "Swisscom AG",
+    "country": "Austria",
+    "email": "kilian.wyss@swisscom.com",
+    "phone": "+41798758027",
+    "subject": "hsahsahashjashja"
+  },
+  {
+    "firstname": "Kilian Lars",
+    "lastname": "Wyss",
+    "company": "Swisscom AG",
+    "country": "Austria",
+    "email": "kilian@wyssbaur.ch",
+    "phone": "0798758027",
+    "subject": "ahhashsahabhashsa"
+  }
+]
